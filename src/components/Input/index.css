@@ -1,0 +1,33 @@
+.input-wrapper {
+    text-align: left;
+}
+
+.input-wrapper input {
+    height: 1.25rem;
+    padding: .375rem .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    font-size: 13px;
+}
+
+.input-wrapper label {
+    display: block;
+    font-size: .75rem;;
+    font-weight: 600;
+    color: gray;
+    margin-bottom: .35rem;
+    text-transform: capitalize;
+}
+
+.input-wrapper input::-webkit-outer-spin-button,
+.input-wrapper input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.input-wrapper input[type=number] {
+  -moz-appearance: textfield;
+}

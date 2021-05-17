@@ -1,0 +1,71 @@
+.configure-channel .media-channel-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.configure-channel p {
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+}
+
+.configure-channel h5 {
+    color: brown;
+}
+
+
+.configure-channel .media-channel-container .input-wrapper input {
+    display: none;
+}
+
+.configure-channel .media-channel-container .label-content {
+    width: 120px;
+    padding: .5rem;
+    padding-top: 2rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: .2rem;
+}
+
+.configure-channel .media-channel-container .label-content.selected > p {
+    color: #ffffff;
+}
+
+.configure-channel .media-channel-container .label-content.selected {
+    background-color: purple;
+    color: #ffffff;
+}
+
+.configure-channel .media-channel-container .label-content.selected > svg {
+    fill: #ffffff;
+}
+
+
+.configure-channel .media-channel-container .label-content svg {
+    width:  4rem;
+    height: 4rem;
+}
+
+.configure-channel .tracking-options .input-wrapper label, .configure-channel .channel-types .input-wrapper label {
+    margin-left: .2rem;
+    margin-bottom: 0;
+}
+
+.configure-channel .tracking-options .input-wrapper, .configure-channel .channel-types .input-wrapper {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    min-width: 150px;
+}
+
+
+
+
+@media screen and (min-width: 480px) {
+    
+}
